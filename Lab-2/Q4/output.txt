@@ -1,0 +1,1 @@
+Median element of array is: 32800

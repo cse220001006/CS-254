@@ -10,6 +10,14 @@ int main() {
         cin >> arr[i];
     }
     sort(arr, arr+n);
-    cout << "Median element of array is: " << arr[n/2] << endl;
+    int ans = 0;
+    int k = n/2;
+    if(n%2==0){
+        ans = (arr[k-1]+arr[k])/2;
+    }
+    else{
+        ans = arr[k];
+    }
+    cout << "Median element of array is: " << ans << endl;
     return 0;
 }

@@ -1,0 +1,1 @@
+Size of largest region is: 496177
